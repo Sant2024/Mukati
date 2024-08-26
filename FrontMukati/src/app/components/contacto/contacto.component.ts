@@ -15,7 +15,7 @@ export class ContactoComponent {
     proyecto: string = '';
 
     enviarFormulario() {
-        // Aquí puedes manejar el envío del formulario
+
         console.log('Formulario enviado:', {
             nombre: this.nombre,
             email: this.email,

@@ -1,14 +1,16 @@
 .formulario-contacto {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(245, 245, 245, 0.844);
     padding: 20px;
     border-radius: 5px;
+    border-color: #59747b;
 }
 
-.btn-enviar {
-    background-color: #6b8e23;
-    border: none;
-    color: white;
+.titulo {
+    font-size: 50px;
+    font-weight: 800;
+
 }
+
 
 .imagen {
     background-image: url('/assets/img/fondo.png');
@@ -17,15 +19,36 @@
     padding: 20px;
 }
 
-.card {
-    background: rgba(255, 255, 255, 0);
-    /* Fondo semi-transparente */
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
 
 .colorletrak {
     color: #59747b;
 }
 
+button {
+    padding: 17px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+}
 
+button:hover {
+    letter-spacing: 3px;
+    background-color: #59747b;
+    color: hsl(0, 0%, 100%);
+    box-shadow: #59747b;
+}
+
+button:active {
+    letter-spacing: 3px;
+    background-color: #59747b;
+    color: hsl(0, 0%, 100%);
+    box-shadow: #59747b;
+    transform: translateY(10px);
+    transition: 100ms;
+}
