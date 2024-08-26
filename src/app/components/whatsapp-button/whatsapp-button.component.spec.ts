@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BarraNavegacionComponent } from './barra-navegacion.component';
+import { WhatsappButtonComponent } from './whatsapp-button.component';
 
-describe('BarraNavegacionComponent', () => {
-  let component: BarraNavegacionComponent;
-  let fixture: ComponentFixture<BarraNavegacionComponent>;
+describe('WhatsappButtonComponent', () => {
+  let component: WhatsappButtonComponent;
+  let fixture: ComponentFixture<WhatsappButtonComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [BarraNavegacionComponent]
+      imports: [WhatsappButtonComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(BarraNavegacionComponent);
+    fixture = TestBed.createComponent(WhatsappButtonComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
