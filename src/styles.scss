@@ -1,6 +1,5 @@
 :root {
     --colorletrak: #59747b;
-
 }
 
 .colorletrak {
@@ -10,3 +9,15 @@
 .bgcolorgris {
     background-color: var(--colorletrak);
 }
+
+.titulo {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+@media screen and (min-width: 768px) {
+    .titulo {
+        font-size: 3rem;
+    }
+}
+
