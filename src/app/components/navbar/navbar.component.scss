@@ -1,10 +1,12 @@
 .imagen {
-    background-image: url('/assets/img/inicio.webp');
+    background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)),
+        url("/assets/img/inicio.webp");
     background-size: cover;
     background-position: center;
 }
-.silla{
-    width: 70px;
+
+.silla {
+    width: 60px;
 }
 
 /* From Uiverse.io by barisdogansutcu */
