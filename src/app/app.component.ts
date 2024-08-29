@@ -13,5 +13,5 @@ import { WhatsappButtonComponent } from './components/whatsapp-button/whatsapp-b
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'FrontMukati';
+  title = 'Mukati';
 }
